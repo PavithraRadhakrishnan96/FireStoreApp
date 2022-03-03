@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    tools:context=".QuerySampleActivity"
+    >
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/upload_data" />
+
+    <Button
+        android:id="@+id/btnGetData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="GET ALL DATA" />
+    <Button
+        android:id="@+id/btnWhereEqual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="whereEqualTo" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnwhereNotEqualTo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="whereNotEqualTo" />
+
+    <Button
+        android:id="@+id/btnWhereLessThan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="whereLessThan" />
+
+    <Button
+        android:id="@+id/btnwhereGreaterThanOrEqualTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="whereGreaterThanOrEqualTo" />
+    <Button
+        android:id="@+id/btnwhereArrayContains"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="whereArrayContains" />
+
+    <Button
+        android:id="@+id/btnwhereIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="whereIn" />
+
+    <Button
+        android:id="@+id/btnwhereArrayContainsAny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="whereArrayContainsAny" />
+
+    <Button
+        android:id="@+id/btnCompoundQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Compound Query" />
+
+    <Button
+        android:id="@+id/btnCollectiongrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Collection group queries" />
+    <Button
+        android:id="@+id/btnOrderBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Order By" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
